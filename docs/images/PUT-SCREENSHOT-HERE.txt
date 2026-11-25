@@ -1,2 +1,0 @@
-Screenshots for the README go here.
-Expected file: five-waypoint-mission.png (the five-waypoint mission in Kpld-QGroundControl).

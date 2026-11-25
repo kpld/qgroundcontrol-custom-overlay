@@ -40,6 +40,10 @@ Troubleshooting, both hit and solved during this build:
 - **Flight verification** (source-built QGC master, same SITL setup): guided flight 423 m out and back in 3 min 51 s; a five-waypoint mission of ~3,042 m completed with automatic landing — no simulator sensor dropouts in either flight (23 Nov 2026).
 - **Known quirk:** after a SITL restart, QGC can stay stuck on "Comms Lost" even though the vehicle is up and has logged the ground station. An in-app disconnect/reconnect does not recover it — fully exit and reopen QGC on every SITL restart.
 
+![The five-waypoint mission in flight](docs/images/five-waypoint-flight.png)
+
+*The five-waypoint mission in flight (source-built QGC master, same PX4 SIH setup): the status readout at bottom-right shows the 3,042.0 m total distance.*
+
 All flight testing for this project is simulation-only (PX4 SITL/SIH). No real aircraft is flown or used.
 
 ## Repository layout

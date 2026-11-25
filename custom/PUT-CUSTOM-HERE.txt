@@ -1,4 +1,0 @@
-This folder is a placeholder.
-
-Before publishing, copy the real custom/ directory from the QGC source tree
-(D:\QtProjects\qgroundcontrol\custom) into this folder, then delete this file.
